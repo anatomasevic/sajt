@@ -1,0 +1,120 @@
+header h1{
+    background:  rgb(121, 220, 245) ;
+    font-size: 40px;
+    font-style: oblique;
+    color: lightcoral;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding: 20px 0 5px 10px;
+    text-align: center;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}*
+
+
+#meni ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+    display: flex;
+   }
+   
+ #meni  ul li {
+    float: left;
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    opacity: .8;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+   }
+
+#meni img{
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-attachment: scroll;
+   }
+  
+ #meni  ul li a {
+    text-decoration: none;
+    color: lightcoral;
+    display: block;
+   }
+   
+  #meni ul li a:hover {
+    background-color: rgb(140, 198, 245);
+   }
+   
+  #meni ul li ul li{
+    display: flex;
+   }
+   
+  #meni ul li:hover ul li {
+    display: flex;
+   }
+
+  /* .burger div{
+       height: 5px;
+       width: 25px;
+       margin: 10px;
+       padding: 0.5px;
+       background-color: rgb(241, 77, 241);
+   }*/
+
+   #prazno{
+       height: 40px;
+        display: grid;
+        
+   }
+
+   body h2{
+       color: rgb(252, 0, 147);
+       background-color:white;
+       font-style: oblique;
+       font-size: 40px;
+       text-align: center;
+       opacity: .6;
+       display: grid;
+   }
+
+   #sredina {
+       display: grid;
+       padding: 50px;
+      /* margin-left: 150px;*/
+      height: 100%;
+       
+   }
+
+   #sredina{
+       display: grid;
+       grid-template-columns: 23% 23% 23% 23%;
+       grid-template-rows: 10%;
+       float: center;
+       /*   grid-gap: 1px;*/
+   }
+
+   #sredina img {
+       
+       border-style: ridge;
+       border-color: rgb(0,252,134);
+   }
+   #sredina img{
+       flex-direction: row;
+       align-items: flex-start;
+       margin: 10px;
+   }
+   #sredina a:hover{
+       
+       opacity: .8;
+   }
+   body{
+    background: url('img/bk.jpg') ;
+   }
+

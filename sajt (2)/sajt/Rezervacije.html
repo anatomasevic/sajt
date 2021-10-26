@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Rezervacije.css">
+    <title>Rezervacije</title>
+</head>
+<body>
+    <header><h1>Tigrica</h1></header>
+
+    <div id="meni">
+            <div> <img src="img/slika.jpg" alt="logo" ></div>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="Rezervacije.html">Rezervacije</a></li>
+                <li><a href="info.html">Info</a></li>
+                <div class="burger">
+                        <div class="ln1"></div>
+                        <div class="ln2"></div>
+                        <div class="ln3"></div>
+                    </div>
+            </ul>
+        </div>
+
+        <div class="rezerv">
+        <h2>Rezervacija</h2>
+        
+               <form id="form" onsubmit="return funkcija()" >
+                <div id="error"></div>
+                <div class="polje">
+                    <input id="ime" placeholder="Ime" type="text">
+                </div>
+                <div class="polje">
+                    <input id="prezime" placeholder="Prezime"  name="Prezime" type="text">
+                </div>
+                <div class="polje">
+                    <input id="telefon" placeholder="Kontakt telefon" name="Telefon" type="text">
+                </div>
+                <div class="polje">
+                    <input id="email" placeholder="Email" name="Email" type="text">
+                </div>
+                <h4>Izaberite odredjenu uslugu</h4>
+                <div class="usluge">
+                    <input type="checkbox"  id="de">Depilacija</input>
+                </div>
+                <div class="usluge">
+                    <input type="checkbox"  id="ma">Masaza</input>
+                </div>
+                <div class="usluge">
+                    <input type="checkbox"  id="iz">Izlivanje noktiju</input>
+                </div>
+                <div class="usluge">
+                    <input type="checkbox"  id="man">Manikir</input>
+                </div>
+                <div class="usluge">
+                    <input type="checkbox"  id="ja">Japasnko iscrtavanje obrva</input>
+                </div>
+                <h4>Izaberite odredjeni dan</h4>
+                <div class="dani" >
+                   
+                    <input type="radio" name="da" id="pon">Ponedeljak</input>
+                </div>
+                <div class="dani">
+                    <input type="radio" name="da" id="u">Utorak</input>
+                </div>
+                <div class="dani">
+                    <input type="radio" name="da" id="s">Sreda</input>
+                </div>
+                <div class="dani">
+                    <input type="radio" name="da" id="c">Četvrtak</input>
+                </div>
+                <div class="dani">
+                    <input type="radio" name="da" id="pet">Petak</input>
+                </div>
+                <div class="dani">
+                    <input type="radio" name="da" id="sub">Subota</input>
+                </div>
+                
+                
+                    <button  type="submit">Potvrdi</button>
+                
+                
+            </form>
+        </div>
+    </div>
+    <script src="Rezervacije.js"></script>
+</body>
+</html>
